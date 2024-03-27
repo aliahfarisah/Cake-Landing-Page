@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cake Website</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav-logo">
+          <img src="./assets/img/logo.png" alt="logo image" />
+          Cake
+        </a>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#popular" class="nav-link">Popular</a>
+            </li>
+            <li class="nav-item">
+              <a href="#testimonial" class="nav-link">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a href="#newsletter" class="nav-link">Newsletter</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav-close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle & cart button -->
+        <div class="nav-button">
+          <div class="nav-cart">
+            <i class="ri-shopping-cart-line"></i>
+          </div>
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="ri-menu-fill"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main>
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home-container container grid">
+          <img src="./assets/img/home.png" alt="" class="home-img" />
+
+          <div class="home-data">
+            <h1 class="home-title">Full flavor, all natural.</h1>
+            <p class="home-description">
+              Cakes designed with the 'wow' factor in mind, impress your guests
+              with these amazing looking and tasty cakes.
+            </p>
+
+            <a href="#" class="button"
+              >Order Now <i class="ri-arrow-right-line"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about-container container grid">
+          <div class="about-data">
+            <h3 class="about-header">About Us</h3>
+            <h2 class="section-title">The Taste You Need, For Your Pleasure</h2>
+
+            <p class="about-description">
+              We believe that every day deserves a little sweethness. Our shop
+              is your one-stop destination for delectable treats that melt in
+              your mouth and warm your heart. With passion of baking that's been
+              passed down through generations, we take pride in creating
+              mouthwatering masterpieces that delight your taste buds.
+            </p>
+          </div>
+
+          <img
+            src="./assets/img/about.png"
+            alt="about image"
+            class="about-img"
+          />
+        </div>
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+        <h3 class="popular-header">Most Popular</h3>
+        <h2 class="section-title">Our Exclusive Cakes</h2>
+
+        <div class="popular-container container grid">
+          <article class="popular-card">
+            <img
+              src="./assets/img/cake-1.png"
+              alt="popular image"
+              class="popular-img"
+            />
+
+            <h3 class="popular-name">Chocolate Cake</h3>
+            <span class="popular-description"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span
+            >
+
+            <span class="popular-price">RM150</span>
+
+            <button class="popular-button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="popular-card">
+            <img
+              src="./assets/img/cake-2.png"
+              alt="popular image"
+              class="popular-img"
+            />
+
+            <h3 class="popular-name">Linzer torte</h3>
+            <span class="popular-description"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span
+            >
+
+            <span class="popular-price">RM100</span>
+
+            <button class="popular-button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="popular-card">
+            <img
+              src="./assets/img/cake-3.png"
+              alt="popular image"
+              class="popular-img"
+            />
+
+            <h3 class="popular-name">Vanilla Cake with Fruits</h3>
+            <span class="popular-description"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span
+            >
+
+            <span class="popular-price">RM150</span>
+
+            <button class="popular-button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIALS ====================-->
+      <section class="testimonial section" id="testimonial">
+        <h3 class="testimonial-header">Testimonials</h3>
+        <h2 class="section-title">What's our customer says?</h2>
+
+        <div class="testimonial-container container">
+          <div class="testimonial-slider swiper">
+            <div class="swiper-wrapper">
+              <article class="testimonial-card swiper-slide">
+                <div class="testimonial-customer">
+                  <img
+                    src="./assets/img/testimonial-perfil-1.png"
+                    alt=""
+                    class="testimonial-img"
+                  />
+                  <div>
+                    <h3 class="testimonial-name">Fatimah Zahra</h3>
+                    <span class="testimonial-place">Selangor</span>
+                  </div>
+                </div>
+                <p class="testimonial-description">
+                  Tasted so good and so fresh! The cost is really affordable
+                  which will make me order from them again. It is really worth
+                  it!
+                </p>
+                <div class="testimonial-rating">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+              </article>
+
+              <article class="testimonial-card swiper-slide">
+                <div class="testimonial-customer">
+                  <img
+                    src="./assets/img/testimonial-perfil-3.png"
+                    alt=""
+                    class="testimonial-img"
+                  />
+                  <div>
+                    <h3 class="testimonial-name">Anis Athirah</h3>
+                    <span class="testimonial-place">Cyberjaya</span>
+                  </div>
+                </div>
+                <p class="testimonial-description">
+                  I highly recommend for you to try! They give an amazing
+                  birthday cake and the ordering process is so easy. I really
+                  enjoyed the cake on my special day!!
+                </p>
+                <div class="testimonial-rating">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+              </article>
+
+              <article class="testimonial-card swiper-slide">
+                <div class="testimonial-customer">
+                  <img
+                    src="./assets/img/testimonial-perfil-2.png"
+                    alt=""
+                    class="testimonial-img"
+                  />
+                  <div>
+                    <h3 class="testimonial-name">Haziq Amran</h3>
+                    <span class="testimonial-place">Selangor</span>
+                  </div>
+                </div>
+                <p class="testimonial-description">
+                  The cakes are delicious! Can't wait to go back!!! :)
+                </p>
+                <div class="testimonial-rating">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+              </article>
+
+              <article class="testimonial-card swiper-slide">
+                <div class="testimonial-customer">
+                  <img
+                    src="./assets/img/testimonial-perfil-4.png"
+                    alt=""
+                    class="testimonial-img"
+                  />
+                  <div>
+                    <h3 class="testimonial-name">Adam Syakirin</h3>
+                    <span class="testimonial-place">Kuala Lumpur</span>
+                  </div>
+                </div>
+                <p class="testimonial-description">
+                  Wonderful design & love the colour for my birthday cake.
+                  Chocolate cake is moist and not too sweet.
+                </p>
+                <div class="testimonial-rating">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== NEWSLETTER ====================-->
+      <section class="newsletter section" id="newsletter">
+        <div class="newsletter-container container grid">
+          <div class="newsletter-content grid">
+            <div class="newsletter-data">
+              <h3 class="newsletter-header">Get In Touch</h3>
+              <h2 class="section-title">Join Our Newsletter</h2>
+              <p class="newsletter-description">
+                Join Our Newsletter to get more free voucher every week and more
+                benefits for you
+              </p>
+
+              <form action="" class="newsletter-form">
+                <input
+                  type="email"
+                  placeholder="Your email"
+                  class="newsletter-input"
+                />
+
+                <a class="button newsletter-button">
+                  Subscribe <i class="ri-send-plane-line"></i>
+                </a>
+              </form>
+            </div>
+          </div>
+          <img
+            src="./assets/img/newsletter.jpg"
+            alt="newsletter image"
+            class="newsletter-img"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer-container container grid">
+        <a href="#" class="footer-logo">
+          <img src="./assets/img/logo.png" alt="footer logo" />
+          Cake
+        </a>
+        <div class="footer-data grid">
+          <div>
+            <h3 class="footer-title">About</h3>
+            <ul class="footer-links">
+              <li><a href="" class="footer-link">FAQs</a></li>
+
+              <li><a href="" class="footer-link">Privacy policy</a></li>
+
+              <li><a href="" class="footer-link">Terms of services</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer-title">Company</h3>
+            <ul class="footer-links">
+              <li><a href="" class="footer-link">Blogs</a></li>
+
+              <li><a href="" class="footer-link">Community</a>y</li>
+
+              <li><a href="" class="footer-link">Our team</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer-title">Contact</h3>
+            <ul class="footer-links">
+              <li>
+                <address class="footer-info">
+                  11, Langgak Duta, <br />
+                  Taman Duta, 50480 <br />
+                  Kuala Lumpur
+                </address>
+              </li>
+
+              <li><a href="" class="footer-link">cake@gmail.com</a></li>
+
+              <li><a href="" class="footer-link">+60115784445</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer-title">Social</h3>
+            <ul class="footer-social">
+              <a href="#" target="_blank" class="footer-social-link">
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+
+              <a href="#" target="_blank" class="footer-social-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+
+              <a href="#" target="_blank" class="footer-social-link">
+                <i class="ri-twitter-x-line"></i>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <span class="footer-copy"> &#169; All Rights Reserved By Aliah </span>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
